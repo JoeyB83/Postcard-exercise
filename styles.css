@@ -4,7 +4,7 @@ body {
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 280px;
 	margin: auto;
 }
 .postcard-header {
@@ -15,8 +15,9 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 400px;
+	width: 340px;
 	margin: 0;
+	font-family: "Silkscreen", cursive;
 }
 .postcard-body {
 	display: flex;
@@ -33,11 +34,13 @@ input {
 	border-bottom: 1px solid grey;
 }
 p {
-	font-size: medium;
+	font-size: small;
+	font-family: "Silkscreen", cursive;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
 	background-color: gray;
+	font-family: "Silkscreen", cursive;
 }
